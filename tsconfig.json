@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "nativewind-env.d.ts",
+    "react-native-maps.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "backend/node_modules",
+    "backend/generated",
+    ".expo"
+  ]
+}
